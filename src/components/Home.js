@@ -9,8 +9,6 @@ auth.signOut();
 function Home(props) {
   return (
     <div>
-      <div className='Headings welcome'>{props.name ? `Welcome  ${props.name} !` : "Login please !!"}</div>
-      <button onClick={signout()} className='logout'> Log Out</button>
       <div className='Img'>
         <img src="https://www.inveslo.com/uploads/understand-stocks-market-trading-and-its-benefits.webp" className="img-fluid" alt='Image1' />
       </div>
